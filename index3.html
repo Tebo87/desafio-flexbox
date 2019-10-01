@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+    <style>
+        .nav{
+            display: flex;
+            height: 13vh;
+            flex-direction: row;
+            border: 1px solid black;
+        }
+        .elemento{
+           display: flex;
+           font-size: 1.5rem;
+           align-items: center;
+           justify-content: center;
+        }
+        .logo{
+            flex-grow: 6;
+            justify-content: flex-start;
+        }
+        .inicio, .entrevistas, .musica, .tendencias{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="elemento logo"><img src="assets/images/logo.PNG"></div>
+        <div class="elemento inicio">Inicio</div>
+        <div class="elemento entrevistas">Entrevistas</div>
+        <div class="elemento musica">Música</div>
+        <div class="elemento tendencias">Tendencias</div>
+    </div>
+    
+</body>
+</html>
